@@ -280,14 +280,12 @@ TMatrix<ValType>::TMatrix(int s): TVector<TVector<ValType> >(s)
 
 template <class ValType> // конструктор копирования
 TMatrix<ValType>::TMatrix(const TMatrix<ValType> &mt):
-  TVector<TVector<ValType> >(mt) 
-{
+  TVector<TVector<ValType> >(mt) {
 }
 	
 template <class ValType> // конструктор преобразования типа
 TMatrix<ValType>::TMatrix(const TVector<TVector<ValType> > &mt):
-  TVector<TVector<ValType> >(mt) 
-{
+  TVector<TVector<ValType> >(mt) {
 }
 
 template <class ValType> // сравнение
